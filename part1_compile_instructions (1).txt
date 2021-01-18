@@ -1,0 +1,29 @@
+How to compile the Paging software on Linux terminal 
+
+Step 1: Install gcc
+$ sudo apt-get install build-essential
+
+Step 2:Go to the folder where mini-project3.c and part1input.txt is saved
+$ cd /home/YOUR NAME/Downloads
+
+Step3: Make an executable file for the program using the g++ command called executable-file-name
+g++ mini-projext3.c -o executable-file-name
+
+Step 4: Compile mini-project3.c using the cc command 
+cc mini-project3.c -0 scheduler
+
+Step 5: If there is no error given when compiling the code we can use ./ to run the code
+./mini-project3
+
+Step 6:Once the code initiates it will present the user with the following output:
+PROGRAM STARTING
+
+Step 7:After the paging process has completed the program will give the following output:
+Virtual Address, Page number and Offset in the following syntax:
+The virtual address ________ is in page number _______ and offset_____
+
+Special Instructions : The zip file will also include the executable file which can be used directly compile the program using ./ mini-project3.exe
+
+
+
+
